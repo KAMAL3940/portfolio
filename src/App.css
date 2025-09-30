@@ -1,0 +1,311 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.portfolio_web .name_head {
+  font-family: "Arsenica Trial", sans-serif;
+  font-size: 110px;
+  font-weight: 500;
+}
+
+.head_section img {
+  height: 300px;
+  transform: rotate(-5deg);
+  position: relative;
+  z-index: -1;
+  margin-top: -60px;
+}
+.head_section {
+  position: relative;
+}
+
+.head_section .port_txt {
+  font-size: 135px;
+  font-family: "Arimo", sans-serif;
+  font-weight: 500;
+  margin-top: -60px;
+}
+.head_section .prt_para {
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  margin-top: 50px;
+}
+
+.about_section {
+  margin-top: 200px;
+}
+
+.about_section .about_top {
+  display: flex;
+  gap: 200px;
+  margin-right: 200px;
+}
+
+.about_section .about_top .about_txt {
+  font-size: 80px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.about_section .about_top .about_txt p:nth-child(1) {
+  margin-bottom: -30px;
+  line-height: 80px;
+}
+
+.about_txt{
+  font-family: 'Lato', sans-serif;
+}
+
+.about_section .about_top img {
+  width: 360px;
+}
+
+.about_bottom {
+  display: flex;
+  gap: 200px;
+  margin-right: 60px;
+  margin-top: 100px;
+}
+
+.about_bottom .about_txt {
+  padding: 0 170px;
+  font-size: 22px;
+}
+
+.about_section .about_bottom img {
+  width: 200px;
+  transform: rotate(-5deg);
+}
+
+.exp_txt {
+  font-size: 80px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.exp_txt p {
+  width: min-content;
+  line-height: 80px;
+}
+
+.exp_desc {
+  display: flex;
+  align-items: end;
+  justify-content: left;
+  margin-top: 130px;
+  gap: 200px;
+}
+
+.agency_left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  
+}
+
+.exp_blc img {
+  width: 300px;
+}
+
+.exp_blc h4 {
+  font-family: "Arsenica Trial", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.agency_txt p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.agency_txt {
+  text-align: left;
+   font-family: 'Lato', sans-serif;
+}
+
+.expertSection{
+    margin: 150px 0;
+    display: flex;
+    gap: 120px;
+}
+
+.expertSection .exp_txt img{
+     width: 500px;
+    filter: grayscale(1);
+    margin-top: -30px;
+    position: relative;
+    z-index: -1;
+}
+
+.expertSection .expertiseRight .devContent h4{
+font-family: "Arsenica Trial", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.expertSection .expertiseRight .devContent{
+  text-align: left;
+}
+
+.expertSection .expertiseRight .devContent:nth-child(1){
+ margin-bottom: 70px;
+}
+
+.expertSection .expertiseRight .devContent p{
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.projectSection{
+margin-bottom: 150px;
+}
+
+.projectHead{
+    font-size: 80px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.projectSec .project_img{
+width: 300px;
+margin-bottom: 20px;
+}
+
+.projectSec h4{
+ font-family: "Arsenica Trial", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.projectSec p{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.projectDes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.projectDes .projectSec:nth-child(2){
+  margin-top: 100px;
+}
+
+.projectSection .projectHead{
+  margin-bottom: 60px;
+}
+
+.creativeSection .projectHead{
+  font-size: 120px;
+  margin-bottom: 30px;
+}
+
+.creativeSection .projectHead:nth-child(2){
+  font-style: italic;
+   font-family: "Arsenica Trial", sans-serif;
+}
+
+.creativeSection img{
+    width: 260px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 60px;
+}
+
+.aboutSection{
+margin-top: 150px;
+}
+
+.aboutSection .aboutName{
+      font-family: "Arsenica Trial", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.aboutSection .aboutHead {
+       font-size: 82px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 0px;
+    width: 400px;
+    line-height: 75px;
+}
+
+.addresSection {
+    margin-top: 100px;
+    font-family: "Arsenica Trial", sans-serif;
+   font-size: 35px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.aboutBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutBlock .rightBlock img{
+    transform: rotate(10deg);
+    width: 90%;
+}
+
+h4.otherName {
+    font-size: 90px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.otherSection{
+  margin-top: 150px;
+}
+
+.topBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.topBlock p {
+    font-size: 20px;
+    padding-right: 100px;
+}
+
+.otherDesc img:nth-child(1){
+width: 55%;
+}
+
+.otherDesc img:nth-child(2){
+width: 25%;
+transform: rotate(355deg);
+}
+
+.otherDesc {
+    display: flex;
+    align-items: center;
+}
+.otherDesc {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: flex-end;
+}

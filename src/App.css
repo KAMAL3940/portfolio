@@ -204,7 +204,6 @@ img{
     align-items: center;
     justify-content: center;
     gap: 0rem;
-    flex-direction: column;
 }
 
 .projectDes .projectSec:nth-child(2) {
@@ -254,11 +253,11 @@ img{
 }
 
 .addresSection {
-  margin-top: 100px;
-  font-family: "Arsenica Trial", sans-serif;
-  font-size: 35px;
-  font-weight: 500;
-  text-align: left;
+    margin-top: 100px;
+    font-family: initial;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
 }
 
 .aboutBlock {
@@ -574,5 +573,9 @@ h4.otherName {
 
 .expertSection .expertiseRight .devContent p {
     font-size: 18px;
+}
+
+.projectDes{
+  flex-direction: column;
 }
 }
